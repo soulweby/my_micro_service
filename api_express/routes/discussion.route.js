@@ -14,7 +14,8 @@ router.get("/", async (req, res) => {
 
 router.post("/", async (req, res) => {
   const post = new Disc({
-    contenu: req.body.contenu,
+    name: req.body.name,
+    contenu: req.body.contenu
   });
 
   try {

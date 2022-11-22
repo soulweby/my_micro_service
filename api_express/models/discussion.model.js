@@ -3,8 +3,9 @@
 const mongoose = require ('mongoose');
 
 const DiscussionSchema = mongoose.Schema ({
+    name: String,
+    contenu: String,
 
-    contenu: String
 });
 
 
